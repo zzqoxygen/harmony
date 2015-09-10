@@ -1,10 +1,10 @@
 # Harmony Jekyll theme general configurations
 
 # Base URL
-baseurl: zzqoxygen.github.io
+baseurl:
 
 # Site live URL
-url: http://zzqoxygen.github.io/
+url:
 
 # Localhost
 # url: http://127.0.0.1:4000
@@ -13,19 +13,17 @@ url: http://zzqoxygen.github.io/
 harmony:
   name: Jason's Blog
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: 数据挖掘, 量化投资
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and
   # in your feed.xml site description.
   meta_description: > #
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github -
-   https://github.com/gayanvirajith/harmony
+   quantitative investment
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+  author: # Author detailsw
+    name: Jason Zhao
+    email: jason_zzq@foxmail.com
+    url: http://zzqoxygen.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
@@ -48,6 +46,8 @@ highlighter: pygments
 
 # Permalinks
 permalink:        pretty
+
+destination: ../zzqoxygen.github.io
 
 exclude:
   - CNAME
