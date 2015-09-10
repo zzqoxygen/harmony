@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python 字符串相关"
+title:  "python 数据类型相关操作"
 date:   2015-09-09 21:56:45
 description:
 categories:
@@ -9,12 +9,12 @@ permalink: python-string
 ---
 
 
-总结一下python字符串相关的用法。
+总结一下python的list, dictionary, set相关的用法。
 
 
 {% highlight ruby %}
 
-#字符串拆分成list
+#list1, list2 求并集，差集
 str='str1,str2,str3'
 str_list=str.split(',')
 

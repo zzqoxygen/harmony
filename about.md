@@ -1,20 +1,16 @@
 ---
 layout: page
-title: About me
+title: About this blog
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+此博客主要记录工作中技术相关内容,以及对量化投资的研究。
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+This blog is intended to record technology related content and things about quantitative investment.
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+Find me on [Github][github] or just say `Hello` at [jason_zzq@foxmail.com](jason_zzq@foxmail.com).
 
 
 [tf]: http://template-factory.nl
