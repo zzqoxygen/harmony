@@ -30,14 +30,14 @@ harmony:
 
   # Profile links, leave blank to ignore
   social:
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
+    github: zzqoxygen
+    twitter:
+    facebook:
+    gplus:
+    dribble:
     pinterest:
   # Toggle disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false
 
 # Conversion / Build settings
 markdown:    kramdown
