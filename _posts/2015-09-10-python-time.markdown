@@ -8,8 +8,9 @@ categories:
 permalink:
 ---
 
+datetime.time 和 time是不一样的。time是比较底层的类。datetime是time的封装。
+实际使用中，主要使用datetime.
 
-总结一下python时间模块datetime的用法。
 
 datetime常用的有四种类：
 
@@ -55,5 +56,27 @@ print time.year, time.month, time.day, time.minute, time.second, time.microsecon
 # string to time
 date_str='2010-01-01'
 date=date.strptime(date_str,'%Y-%m-%d')
+
+{% endhighlight %}
+
+time:
+
+{% highlight python %}
+
+from datetime import time
+
+day_open_time=time(9,0,0)
+day_close_time=time(15,15,0)
+night_open_time=time(21,0,0)
+night_close_time=time(2,30,0)
+tm_time=datetime.strptime(time_str, "%H:%M:%S.%f")
+
+if tm_time.time()>night_close_time and tm_time.time()<day_open_time:
+    print time_str,' ',tm_time
+    return False
+
+if tm_time.time()>day_close_time and tm_time.time()<night_open_time:
+    print time_str,' ',tm_time
+    return False
 
 {% endhighlight %}
