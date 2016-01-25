@@ -45,7 +45,7 @@ datetime:
 
 {% highlight python %}
 
-from datetime import datetime
+import datetime
 
 # time now
 time=datetime.datetime.now()
@@ -55,7 +55,13 @@ print time.year, time.month, time.day, time.minute, time.second, time.microsecon
 
 # string to time
 date_str='2010-01-01'
-date=date.strptime(date_str,'%Y-%m-%d')
+date_now=datetime.datetime.strptime(date_str,'%Y-%m-%d')
+
+# datetime to string
+date_str=date_now.strftime('%Y-%m-%d')
+
+# date delta
+date=date+datetime.datetime.timedelta(days=3)
 
 {% endhighlight %}
 
